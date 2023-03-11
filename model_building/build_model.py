@@ -1,9 +1,6 @@
 from sklearn.model_selection import train_test_split
 from autogluon.tabular import TabularPredictor
 
-
-
-
 def perform_train_test_split(df):
 
     train_data, test_data = (
